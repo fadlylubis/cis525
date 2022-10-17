@@ -1,0 +1,136 @@
+
+/* ID CSS connection with rgb color scheme*/
+#title {
+    color: rgb(82, 207, 207);
+    font-size: large;
+    position: relative;
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* ID CSS connection with rgb color scheme*/
+#Home {
+    color: rgb(92, 176, 59);
+    font-size: medium;
+    border-radius: 12px;
+}
+
+/* Class CSS connection with name color scheme*/
+.About-Me{
+    color: blue;
+    font-size: medium;
+    border-radius: 12px;
+}
+
+
+/* Class CSS connection with hex color scheme*/
+.Trip {
+    color:#907114;
+    font-size: medium;
+    border-radius: 12px;
+}
+
+.Contact {
+    color:#3b9014;
+    font-size: medium;
+    border-radius: 12px;
+}
+/* ID CSS connection with hex color scheme*/
+#website{
+    color:#0c26a9;
+    font-size: medium;
+    border-radius: 12px;
+}
+
+/* HTML tag CSS connection with border, padding, and margin*/
+img{
+    width: 300px;
+    border: 15px solid rgb(65, 102, 180);
+    padding: 25px;
+    margin: 20px;
+}
+
+/* Overflow property on pre-tag */
+
+pre{
+    width: 950px;
+    border: 15px solid rgb(65, 102, 180);
+    padding: 70px;
+    /*margin: 10px;*/
+    resize: both;
+    overflow: auto;
+}
+
+/* Default css styling for Font*/
+*{
+font-family: 'Courier New', Courier, monospace;
+}
+
+/* Block inline navigation bar*/
+.nav {
+    background-color: rgb(124, 183, 183); 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  caption{
+    font-size: larger;
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #040faa;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4556a0;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
